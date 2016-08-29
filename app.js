@@ -8,18 +8,18 @@ var mongoose = require('mongoose')
 var passport = require('passport');
 var authenticate = require('./authenticate');
 
-var config = require('./config');
+/*var config = require('./config');
 
-/*mongoose.connect(config.mongoUrl);
+mongoose.connect(config.mongoUrl);
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
 db.once('open', function () {
     // we're connected!
     console.log("Connected correctly to server");
 });
-*/
+
 var routes = require('./routes/index')
-var users = require('./routes/users')
+var users = require('./routes/users')*/
 var t1 = require('./routes/t1')
 var t2 = require('./routes/t2')
 var t3 = require('./routes/t3')
