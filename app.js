@@ -8,7 +8,8 @@ var mongoose = require('mongoose')
 var passport = require('passport');
 var authenticate = require('./authenticate');
 
-
+var routes = require('./routes/index')
+var users = require('./routes/users')
 var t1 = require('./routes/t1')
 var t2 = require('./routes/t2')
 var t3 = require('./routes/t3')
