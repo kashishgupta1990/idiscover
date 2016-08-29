@@ -2,53 +2,84 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
-        <h2>DashBoard</h2>
+        <h2>Student Dashboard</h2>
       </div>
       
       <div class="clear"></div>
       
       <div class="seven-simple-slider">
-        <div class="col-md-3 col-sm-6 yellow-col-top slide y1">
+          
+        <div class="col-md-3 col-sm-6 yellow-col-top slide y1" ui-sref="userProfile.spec">
           <div class="yellow-container">
-            <div><a ui-sref="userProfile.spec">You Get <br />
-              <span>TrueSelf Profile</span></a></div>
+            <div ng-click="seespec()">Your<br/>
+              <span>Profile</span></div>
           </div>
-         
+          
         </div>
+          
+        <div class="col-md-3 col-sm-6 yellow-col-top slide y2" ui-sref="userProfile">
+          <div class="yellow-container">
+            <div >Edit<br/>
+              <span>Profile</span></div>
+          </div>
+          
+        </div>
+          
         <div class="col-md-3 col-sm-6 yellow-col-top slide y2">
           <div class="yellow-container ">
-            <div><a ui-sref="userProfile">Edit your<br />
-              <span>TrueSelf Profile</span></a></div>
+            <div><a href="about-us.html">You Get <br />
+              <span>Creativity</span></a></div>
           </div>
-         
+          <p> Our passion for healthcare,<br />
+            design, marketing and <br />
+            technology drives us to <br />
+            <strong>invent better, creative <br />
+            ways to help you succeed.</strong> </p>
         </div>
         <div class="col-md-3 col-sm-6 yellow-col-top slide y3">
           <div class="yellow-container ">
             <div><a href="about-us.html">You Get <br />
               <span>Quality</span></a></div>
           </div>
-         
+          <p> Utmost attention to detail <br />
+            with practical perfectionism <br />
+            means we strive for excellence <br />
+            so <strong>you are guaranteed <br />
+            the highest quality of service.</strong> </p>
         </div>
         <div class="col-md-3 col-sm-6 yellow-col-top slide y4">
           <div class="yellow-container ">
             <div><a href="about-us.html">You Get <br />
               <span>Speed</span></a></div>
           </div>
-          
+          <p> We know how busy you are <br />
+            and we value your time. <br />
+            <strong>Our team works quickly <br />
+            and efficiently to <br />
+            minimize effort on your part.</strong> </p>
         </div>
         <div class="col-md-4 col-sm-6 yellow-col-bot y5">
           <div class="yellow-container ">
             <div><a ui-sref="secSelect">You Get <br />
               <span>Support</span></a></div>
           </div>
-          
+          <p>Knowledgeable and genuinely honest <br />
+            people that care about your needs <br />
+            are the reason clients love us. <br />
+            <strong>You have our full attention and <br />
+            commitment to your satisfaction.</strong></p>
         </div>
         <div class="col-md-4 col-sm-6 yellow-col-bot y6">
           <div class="yellow-container ">
             <div><a href="about-us.html">You Get <br />
               <span>Results</span></a></div>
           </div>
-        
+          <p>Our mission is to help <br />
+            your health business succeed. <br />
+            Online medical marketing produces <br />
+            real, measurable results, <br />
+            <strong>increases revenues and guarantees <br />
+            your return on investment.</strong></p>
         </div>
        
       </div>
