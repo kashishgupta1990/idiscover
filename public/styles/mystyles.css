@@ -1,0 +1,901 @@
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);.row-header {
+  margin: 0px auto;
+  padding: 0px 0px;
+}
+
+body{
+    font-family: "Montserrat"";
+}
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px;
+}
+.row-footer {
+  margin: 0px auto;
+  padding: 20px 0px;
+  background-color: #AfAfAf;
+}
+
+
+.navbar-inverse {
+    background: #6091ba;
+  color: #fff;
+}
+.navbar-inverse .navbar-nav > .active > a {
+    background: #6091ba;
+  color: #fff;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+    cursor:pointer;
+}
+.navbar-inverse .navbar-nav > .active > a:hover {
+   background: #6091ba;
+  color: #fff;
+}
+.navbar-inverse .navbar-nav > .active > a:focus {
+   background: #6091ba;
+  color: #fff;
+}
+.navbar-inverse .navbar-nav > .open > a {
+   background: #6091ba;
+  color: #fff;
+}
+.navbar-inverse .navbar-nav > .open > a:hover {
+   background: #6091ba;
+  color: #fff;
+}
+.navbar-inverse .navbar-nav > .open > a:focus {
+  background: #6091ba;
+  color: #fff;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+   background: #6091ba;
+  color: #fff;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover {
+   color: #fff;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu {
+    background: #6091ba;
+  color: #fff;
+}
+address {
+  color: #0f0f0f;
+  font-size: 80%;
+  margin: 0px;
+}
+body {
+  align: center;
+  padding: 50px 0px 0px 0px;
+  z-index: 0;
+}
+.tab-content {
+  border-bottom: 1px solid #dddddd;
+  border-left: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  padding: 10px;
+}
+.affix {
+  top: 100px;
+}
+#carouselButtons {
+  bottom: 0px;
+  position: absolute;
+  right: 0px;
+}
+
+.type{
+   margin-top: 10%;
+    line-height: 100px;
+}
+
+
+
+
+.doctors-marketing-top-div .container {
+    width: 100%;
+}
+
+.doctors-marketing-top-div {
+
+    background-size: cover;
+    position: relative;
+    height: 772px;
+    overflow: hidden
+}
+
+.doctors-marketing-top-div .container {
+    height: 100%
+}
+
+.doctors-marketing-top-div .container .row {
+    height: 100%;
+    position: relative
+}
+
+.doctors-marketing-top-div .container .row .circle-sect {
+    position: absolute;
+    font-family: montserrat;
+    text-align: center;
+    font-size: 25px;
+    width: 100px;
+    height: 101px;
+    -webkit-transition: left .2s linear;
+    transition: left .2s linear;
+    -webkit-transition: right .2s linear;
+    transition: right .2s linear;
+    -webkit-transition: bottom .2s linear;
+    transition: bottom .2s linear;
+    z-index: 1;
+    opacity: 0.7;
+}
+
+.doctors-marketing-top-div .container .row .circle-sect:hover {
+    position: absolute;
+    font-family: montserrat;
+    text-align: center;
+    font-size: 25px;
+    width: 100px;
+    height: 101px;
+    -webkit-transition: left .2s linear;
+    transition: left .2s linear;
+    -webkit-transition: right .2s linear;
+    transition: right .2s linear;
+    -webkit-transition: bottom .2s linear;
+    transition: bottom .2s linear;
+    z-index: 1;
+    -webkit-transform: translate(1px,2px); 
+    opacity: 1;
+}
+.doctors-marketing-top-div .container .row .circle-sect:checked {
+    position: absolute;
+    font-family: montserrat;
+    text-align: center;
+    font-size: 25px;
+    width: 100px;
+    height: 101px;
+    -webkit-transition: left .2s linear;
+    transition: left .2s linear;
+    -webkit-transition: right .2s linear;
+    transition: right .2s linear;
+    -webkit-transition: bottom .2s linear;
+    transition: bottom .2s linear;
+    z-index: 1;
+    -webkit-transform: translate(1px,2px); 
+    opacity: 1;
+}
+
+.doctors-marketing-top-div .container .row .circle-sect a {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: block
+}
+
+.doctors-marketing-top-div .container .row .premium-div {
+    background: url('../images/premium_bg.png') no-repeat center;
+    bottom: 225px;
+    left: 50px;
+    padding-top: 45px;
+}
+
+.doctors-marketing-top-div .container .row .acquisition-div {
+    background: url("../images/acquisition_bg.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    bottom: 378px;
+    left: 60px;
+    padding-top: 45px
+}
+
+.doctors-marketing-top-div .container .row .hipaa-div {
+    background: url("../images/hipaa_bg.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    bottom: 521px;
+    left: 158px;
+    padding-top: 45px
+}
+
+.doctors-marketing-top-div .container .row .smart-div {
+    background: url("../images/smart_bg.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    bottom: 610px;
+    left: 329px;
+    padding-top: 45px
+}
+
+.doctors-marketing-top-div .container .row .unlimited-div {
+    background: url('../images/unlimited_bg.png') no-repeat center;
+    margin-left: -71.5px;
+    left: 50%;
+    bottom: 660px;
+    padding-top: 45px
+}
+
+.doctors-marketing-top-div .container .row .engagement-div {
+    background: url('../images/engagement_bg.png') no-repeat center;
+    bottom: 610px;
+    right: 329px;
+    padding-top: 45px
+}
+
+.doctors-marketing-top-div .container .row .social-div {
+    background: url('../images/social_bg.png') no-repeat center;
+    bottom: 521px;
+    right: 158px;
+    padding-top: 45px
+}
+
+.doctors-marketing-top-div .container .row .email-div {
+    background: url('../images/email_bg.png') no-repeat center;
+    bottom: 378px;
+    right: 60px;
+    padding-top: 45px
+}
+
+.doctors-marketing-top-div .container .row .cloud-div {
+    background: url('../images/cloud_bg.png') no-repeat center;
+    bottom: 225px;
+    right: 50px;
+    padding-top: 45px
+}
+
+.doctors-marketing-top-div .container .row .h1-div {
+    bottom: 484px;
+    left: 50%;
+    margin-left: -228px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    width: 456px;
+    -webkit-transition: left .2s linear;
+    transition: left .2s linear;
+    -webkit-transition: right .2s linear;
+    transition: right .2s linear;
+    -webkit-transition: bottom .2s linear;
+    transition: bottom .2s linear
+}
+
+.doctors-marketing-top-div .container .row .h1-div h1 {
+    color: #ffffff;
+    font-family: 'BankGothicMdBT';
+    font-size: 33px
+}
+
+.doctors-marketing-top-div .container .row .h1-div h1 span {
+    color: #f6ec23
+}
+
+.doctors-marketing-top-div .container .row .h2-div {
+    bottom: 484px;
+    mtop: 10%;
+    left: 55%;
+    margin-left: -228px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    width: 456px;
+    -webkit-transition: left .2s linear;
+    transition: left .2s linear;
+    -webkit-transition: right .2s linear;
+    transition: right .2s linear;
+    -webkit-transition: bottom .2s linear;
+    transition: bottom .2s linear
+}
+
+.doctors-marketing-top-div .container .row .h2-div h2 {
+    color: #ffffff;
+    font-family: 'BankGothicMdBT';
+    font-size: 33px
+}
+
+.doctors-marketing-top-div .container .row .h2-div h2 span {
+    color: #f6ec23
+}
+
+.doctors-marketing-top-div .container .row .doctor-couple {
+    background: url("../images/2.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    bottom: 150px;
+    
+    height: 512px;
+    left: 50%;
+    margin-left: -517px;
+    position: absolute;
+    width: 989px;
+    -webkit-transition: left .2s linear;
+    transition: left .2s linear;
+    -webkit-transition: right .2s linear;
+    transition: right .2s linear;
+    -webkit-transition: bottom .2s linear;
+    transition: bottom .2s linear
+}
+
+.doctors-marketing-top-div .container .row .top-btn {
+    position: absolute;
+    bottom: 370px;
+    left: 40.5%;
+  
+}
+
+
+.doctors-marketing-top-div .container .row .top-btn .start-btn {
+    padding: 12px 40px;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    font-family: 'open_sanssemibold';
+    line-height: 20px;
+    background: #05c3a8;
+    background: -moz-linear-gradient(left, #05c3a8 0%, #05c2a7 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #05c3a8), color-stop(100%, #05c2a7));
+    background: -webkit-linear-gradient(left, #05c3a8 0%, #05c2a7 100%);
+    background: -o-linear-gradient(left, #05c3a8 0%, #05c2a7 100%);
+    background: -ms-linear-gradient(left, #05c3a8 0%, #05c2a7 100%);
+    background: linear-gradient(to right, #05c3a8 0%, #05c2a7 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#05c3a8', endColorstr='#05c2a7', GradientType=1);
+    box-shadow: 4px 4px 6px #c9c9cb
+}
+
+.input-circle { 
+left: 50px;
+    position:absolute;
+    opacity: 0;
+transform: scale(10, 10); 
+-moz-transform: scale(, 3); 
+-ms-transform: scale(3, 3); 
+-webkit-transform: scale(9, 9); 
+-o-transform: scale(3, 3); 
+ cursor:pointer;
+}
+
+
+
+@media (max-width: 767px)
+{
+    
+
+.doctors-marketing-top-div .container {
+    width: 100%;
+}
+
+.doctors-marketing-top-div {
+
+    background-size: cover;
+    position: relative;
+    height: 772px;
+    overflow: hidden
+}
+
+.doctors-marketing-top-div .container {
+    height: 100%
+}
+
+.doctors-marketing-top-div .container .row {
+    height: 100%;
+    position: relative
+}
+
+.doctors-marketing-top-div .container .row .circle-sect {
+    position: absolute;
+    font-family: montserrat;
+    text-align: center;
+    font-size: 15px;
+    width: 75px;
+    height: 76px;
+    -webkit-transition: left .2s linear;
+    transition: left .2s linear;
+    -webkit-transition: right .2s linear;
+    transition: right .2s linear;
+    -webkit-transition: bottom .2s linear;
+    transition: bottom .2s linear;
+    z-index: 1;
+    opacity: 0.7;
+}
+
+.doctors-marketing-top-div .container .row .circle-sect:hover {
+    position: absolute;
+    font-family: montserrat;
+    text-align: center;
+    font-size: 15px;
+    width: 100px;
+    height: 101px;
+    -webkit-transition: left .2s linear;
+    transition: left .2s linear;
+    -webkit-transition: right .2s linear;
+    transition: right .2s linear;
+    -webkit-transition: bottom .2s linear;
+    transition: bottom .2s linear;
+    z-index: 1;
+    -webkit-transform: translate(1px,2px); 
+    opacity: 1;
+}
+.doctors-marketing-top-div .container .row .circle-sect:checked {
+    position: absolute;
+    font-family: montserrat;
+    text-align: center;
+    font-size: 15px;
+    width: 100px;
+    height: 101px;
+    -webkit-transition: left .2s linear;
+    transition: left .2s linear;
+    -webkit-transition: right .2s linear;
+    transition: right .2s linear;
+    -webkit-transition: bottom .2s linear;
+    transition: bottom .2s linear;
+    z-index: 1;
+    -webkit-transform: translate(1px,2px); 
+    opacity: 1;
+}
+
+.doctors-marketing-top-div .container .row .circle-sect a {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: block
+}
+
+.doctors-marketing-top-div .container .row .premium-div {
+    background: url('../images/premium_bg.png') no-repeat center;
+    bottom: 225px;
+    left: 50px;
+    padding-top: 45px;
+}
+
+.doctors-marketing-top-div .container .row .acquisition-div {
+    background: url("../images/acquisition_bg.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    bottom: 378px;
+    left: 60px;
+    padding-top: 45px
+}
+
+.doctors-marketing-top-div .container .row .hipaa-div {
+    background: url("../images/hipaa_bg.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    bottom: 471px;
+    left: 50px;
+    padding-top: 45px
+}
+
+.doctors-marketing-top-div .container .row .smart-div {
+    background: url("../images/smart_bg.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    bottom: 590px;
+    left: 340px;
+    padding-top: 45px
+}
+
+.doctors-marketing-top-div .container .row .unlimited-div {
+    background: url('../images/unlimited_bg.png') no-repeat center;
+    margin-left: -71.5px;
+    left: 50%;
+    bottom: 660px;
+    padding-top: 45px
+}
+
+.doctors-marketing-top-div .container .row .engagement-div {
+    background: url('../images/engagement_bg.png') no-repeat center;
+    bottom: 610px;
+    right: 329px;
+    padding-top: 45px
+}
+
+.doctors-marketing-top-div .container .row .social-div {
+    background: url('../images/social_bg.png') no-repeat center;
+    bottom:500px;
+    right: 25px;
+    padding-top: 45px
+}
+
+.doctors-marketing-top-div .container .row .email-div {
+    background: url('../images/email_bg.png') no-repeat center;
+    bottom: 370px;
+    right: 0px;
+    padding-top: 45px
+}
+
+.doctors-marketing-top-div .container .row .cloud-div {
+    background: url('../images/cloud_bg.png') no-repeat center;
+    bottom: 250px;
+    right: 25px;
+    padding-top: 45px
+}
+
+.doctors-marketing-top-div .container .row .h1-div {
+    bottom: 484px;
+    left: 50%;
+    margin-left: -228px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    width: 456px;
+    -webkit-transition: left .2s linear;
+    transition: left .2s linear;
+    -webkit-transition: right .2s linear;
+    transition: right .2s linear;
+    -webkit-transition: bottom .2s linear;
+    transition: bottom .2s linear
+}
+
+.doctors-marketing-top-div .container .row .h1-div h1 {
+    color: #ffffff;
+    font-family: 'BankGothicMdBT';
+    font-size: 33px
+}
+
+.doctors-marketing-top-div .container .row .h1-div h1 span {
+    color: #f6ec23
+}
+
+.doctors-marketing-top-div .container .row .h2-div {
+    bottom: 484px;
+    mtop: 10%;
+    left: 55%;
+    margin-left: -228px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    width: 456px;
+    -webkit-transition: left .2s linear;
+    transition: left .2s linear;
+    -webkit-transition: right .2s linear;
+    transition: right .2s linear;
+    -webkit-transition: bottom .2s linear;
+    transition: bottom .2s linear
+}
+
+.doctors-marketing-top-div .container .row .h2-div h2 {
+    color: #ffffff;
+    font-family: 'BankGothicMdBT';
+    font-size: 33px
+}
+
+.doctors-marketing-top-div .container .row .h2-div h2 span {
+    color: #f6ec23
+}
+
+.doctors-marketing-top-div .container .row .doctor-couple {
+    background: url("../images/2.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    bottom: 150px;
+    
+    height: 512px;
+    left: 50%;
+    margin-left: -517px;
+    position: absolute;
+    width: 989px;
+    -webkit-transition: left .2s linear;
+    transition: left .2s linear;
+    -webkit-transition: right .2s linear;
+    transition: right .2s linear;
+    -webkit-transition: bottom .2s linear;
+    transition: bottom .2s linear
+}
+
+.doctors-marketing-top-div .container .row .top-btn {
+    position: absolute;
+    bottom: 370px;
+    left: 40.5%;
+  
+}
+
+
+.doctors-marketing-top-div .container .row .top-btn .start-btn {
+    padding: 12px 40px;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    font-family: 'open_sanssemibold';
+    line-height: 20px;
+    background: #05c3a8;
+    background: -moz-linear-gradient(left, #05c3a8 0%, #05c2a7 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #05c3a8), color-stop(100%, #05c2a7));
+    background: -webkit-linear-gradient(left, #05c3a8 0%, #05c2a7 100%);
+    background: -o-linear-gradient(left, #05c3a8 0%, #05c2a7 100%);
+    background: -ms-linear-gradient(left, #05c3a8 0%, #05c2a7 100%);
+    background: linear-gradient(to right, #05c3a8 0%, #05c2a7 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#05c3a8', endColorstr='#05c2a7', GradientType=1);
+    box-shadow: 4px 4px 6px #c9c9cb
+}
+
+.input-circle { 
+left: 50px;
+    position:absolute;
+    opacity: 0;
+transform: scale(10, 10); 
+-moz-transform: scale(, 3); 
+-ms-transform: scale(3, 3); 
+-webkit-transform: scale(9, 9); 
+-o-transform: scale(3, 3); 
+ cursor:pointer;
+}
+}
+
+@media (max-width: 1222px)
+{
+    
+.doctors-marketing-top-div .container {
+    width: 100%;
+}
+
+.doctors-marketing-top-div {
+
+    background-size: cover;
+    position: relative;
+    height: 772px;
+    overflow: hidden
+}
+
+.doctors-marketing-top-div .container {
+    height: 100%
+}
+
+.doctors-marketing-top-div .container .row {
+    height: 100%;
+    position: relative
+}
+
+.doctors-marketing-top-div .container .row .circle-sect {
+    position: absolute;
+    font-family: montserrat;
+    text-align: center;
+    font-size: 25px;
+    width: 100px;
+    height: 101px;
+    -webkit-transition: left .2s linear;
+    transition: left .2s linear;
+    -webkit-transition: right .2s linear;
+    transition: right .2s linear;
+    -webkit-transition: bottom .2s linear;
+    transition: bottom .2s linear;
+    z-index: 1;
+    opacity: 0.7;
+}
+
+.doctors-marketing-top-div .container .row .circle-sect:hover {
+    position: absolute;
+    font-family: montserrat;
+    text-align: center;
+    font-size: 25px;
+    width: 100px;
+    height: 101px;
+    -webkit-transition: left .2s linear;
+    transition: left .2s linear;
+    -webkit-transition: right .2s linear;
+    transition: right .2s linear;
+    -webkit-transition: bottom .2s linear;
+    transition: bottom .2s linear;
+    z-index: 1;
+    -webkit-transform: translate(1px,2px); 
+    opacity: 1;
+}
+.doctors-marketing-top-div .container .row .circle-sect:checked {
+    position: absolute;
+    font-family: montserrat;
+    text-align: center;
+    font-size: 25px;
+    width: 100px;
+    height: 101px;
+    -webkit-transition: left .2s linear;
+    transition: left .2s linear;
+    -webkit-transition: right .2s linear;
+    transition: right .2s linear;
+    -webkit-transition: bottom .2s linear;
+    transition: bottom .2s linear;
+    z-index: 1;
+    -webkit-transform: translate(1px,2px); 
+    opacity: 1;
+}
+
+.doctors-marketing-top-div .container .row .circle-sect a {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: block
+}
+
+.doctors-marketing-top-div .container .row .premium-div {
+    background: url('../images/premium_bg.png') no-repeat center;
+    bottom: 225px;
+    left: 50px;
+    padding-top: 45px;
+}
+
+.doctors-marketing-top-div .container .row .acquisition-div {
+    background: url("../images/acquisition_bg.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    bottom: 378px;
+    left: 60px;
+    padding-top: 45px
+}
+
+.doctors-marketing-top-div .container .row .hipaa-div {
+    background: url("../images/hipaa_bg.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    bottom: 521px;
+    left: 158px;
+    padding-top: 45px
+}
+
+.doctors-marketing-top-div .container .row .smart-div {
+    background: url("../images/smart_bg.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    bottom: 610px;
+    left: 270px;
+    padding-top: 45px
+}
+
+.doctors-marketing-top-div .container .row .unlimited-div {
+    background: url('../images/unlimited_bg.png') no-repeat center;
+    margin-left: -71.5px;
+    left: 50%;
+    bottom: 660px;
+    padding-top: 45px
+}
+
+.doctors-marketing-top-div .container .row .engagement-div {
+    background: url('../images/engagement_bg.png') no-repeat center;
+    bottom: 610px;
+    right: 300px;
+    padding-top: 45px
+}
+
+.doctors-marketing-top-div .container .row .social-div {
+    background: url('../images/social_bg.png') no-repeat center;
+    bottom: 521px;
+    right: 158px;
+    padding-top: 45px
+}
+
+.doctors-marketing-top-div .container .row .email-div {
+    background: url('../images/email_bg.png') no-repeat center;
+    bottom: 378px;
+    right: 60px;
+    padding-top: 45px
+}
+
+.doctors-marketing-top-div .container .row .cloud-div {
+    background: url('../images/cloud_bg.png') no-repeat center;
+    bottom: 225px;
+    right: 50px;
+    padding-top: 45px
+}
+
+
+
+
+
+}
+
+
+@media (max-width: 991px)
+
+{
+.doctors-marketing-top-div .container .row .acquisition-div {
+    background: url("../images/acquisition_bg.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    bottom: 325px;
+    left: 60px;
+    padding-top: 45px
+}
+
+.doctors-marketing-top-div .container .row .hipaa-div {
+    background: url("../images/hipaa_bg.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    bottom: 450px;
+    left: 100px;
+    padding-top: 45px
+}
+
+.doctors-marketing-top-div .container .row .smart-div {
+    background: url("../images/smart_bg.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    bottom: 570px;
+    left: 180px;
+    padding-top: 45px
+}
+
+.doctors-marketing-top-div .container .row .unlimited-div {
+    background: url('../images/unlimited_bg.png') no-repeat center;
+    margin-left: -71.5px;
+    left: 50%;
+    bottom: 660px;
+    padding-top: 45px
+}
+
+.doctors-marketing-top-div .container .row .engagement-div {
+    background: url('../images/engagement_bg.png') no-repeat center;
+    bottom: 570px;
+    right: 200px;
+    padding-top: 45px
+}
+
+.doctors-marketing-top-div .container .row .social-div {
+    background: url('../images/social_bg.png') no-repeat center;
+    bottom: 470px;
+    right: 100px;
+    padding-top: 45px
+}
+
+.doctors-marketing-top-div .container .row .email-div {
+    background: url('../images/email_bg.png') no-repeat center;
+    bottom: 325px;
+    right: 60px;
+    padding-top: 45px
+}
+
+.doctors-marketing-top-div .container .row .cloud-div {
+    background: url('../images/cloud_bg.png') no-repeat center;
+    bottom: 225px;
+    right: 50px;
+    padding-top: 45px
+}
+
+}
+
+.txtarea{
+    width: 100%;
+}
+#displaynone {
+    display: none;
+}
+
+.keywordCheckBox{
+  position: relative;
+ 
+  margin: 0 1rem 0 0;
+  cursor: pointer;
+}
+.keywordCheckBox:before {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  content: "";
+  position: absolute;
+  left: 0;
+  z-index: 1;
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 2px solid #6091ba;
+    
+    
+}
+.keywordCheckBox:checked:before {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  height: .5rem;
+  border-color: #009688;
+  border-top-style: none;
+  border-right-style: none;
+}
+.keywordCheckBox:after {
+  content: "";
+  position: absolute;
+  
+  left: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: #fff;
+  cursor: pointer;
+   
+}
+
+
+
+
+.seven-simple-div{background: url('../images/seven_reasons_bg.jpg') no-repeat center;background-size: cover;position: relative;box-shadow: 0 24px 19px #014342;z-index: 5;padding-bottom: 60px;overflow: hidden}@media (max-width: 767px){.seven-simple-div{padding-bottom: 30px;box-shadow: none}}.seven-simple-div .container .row h2{font-family: 'ralewaybold';font-size: 37px;color: #ffffff;text-align: center;text-transform: uppercase;margin: 70px 0 60px}@media (max-width: 767px){.seven-simple-div .container .row h2{color: #ffffff;font-family: "ralewaybold";font-size: 24px;line-height: 28px;margin: 25px auto;max-width: 100%;text-align: center;width: 450px}}.seven-simple-div .container .row h2 a{color: #ffffff}.seven-simple-div .container .row .bx-wrapper{margin: 0 auto}.seven-simple-div .container .row .bx-wrapper .bx-viewport{background: none;border: none;border-radius: 0;box-shadow: none;left: 0}.seven-simple-div .container .row .bx-wrapper .bx-viewport .seven-simple-slider .slide{top: 0 !important}.seven-simple-div .container .row .bx-wrapper .bx-pager{position: static}.seven-simple-div .container .row .bx-wrapper .bx-pager .bx-pager-link{background: #153a6a;width: 16px;height: 16px;border-radius: 50%}.seven-simple-div .container .row .bx-wrapper .bx-pager .bx-pager-link.active{background: #fdfdfd}.seven-simple-div .container .row .bx-wrapper .bx-controls-direction{display: none}.seven-simple-div .container .row .yellow-col-top{margin-bottom: 30px}.seven-simple-div .container .row .yellow-col-top .yellow-container{background: url("../images/yellow_rect.png") no-repeat scroll center center rgba(0,0,0,0);height: 165px;max-width: 256px;width: 100%;margin: 0 auto;display: table;font-family: 'ralewaybold';font-size: 20px;color: #000000 !important;text-align: center;text-transform: uppercase;-webkit-transition: all .2s linear;transition: all .2s linear;-webkit-background-size: contain;-moz-background-size: contain;-o-background-size: contain;background-size: contain}@media (max-width: 1199px){.seven-simple-div .container .row .yellow-col-top .yellow-container{max-width: 213px;font-size: 17px}}.seven-simple-div .container .row .yellow-col-top .yellow-container span{font-size: 30px}@media (max-width: 1199px){.seven-simple-div .container .row .yellow-col-top .yellow-container span{font-size: 26px}}.seven-simple-div .container .row .yellow-col-top .yellow-container div{display: table-cell;vertical-align: middle}.seven-simple-div .container .row .yellow-col-top .yellow-container a{color: #000000 !important}.seven-simple-div .container .row .yellow-col-top p{text-align: center;font-size: 15px;color: #ffffff;font-family: 'ralewayregular'}@media (max-width: 991px){.seven-simple-div .container .row .yellow-col-top p br{display: none}}@media (max-width: 767px){.seven-simple-div .container .row .yellow-col-top p{font-size: 16px}}.seven-simple-div .container .row .y1{position: relative;top: -15px}.seven-simple-div .container .row .y1 .yellow-container{-ms-transform: rotate(-2deg);-webkit-transform: rotate(-2deg);transform: rotate(-2deg)}.seven-simple-div .container .row .y2 .yellow-container{-ms-transform: rotate(2deg);-webkit-transform: rotate(2deg);transform: rotate(2deg)}.seven-simple-div .container .row .y3{position: relative;top: -15px}.seven-simple-div .container .row .y3 .yellow-container{-ms-transform: rotate(-2deg);-webkit-transform: rotate(-2deg);transform: rotate(-2deg)}.seven-simple-div .container .row .y4{position: relative;top: 25px}.seven-simple-div .container .row .y4 .yellow-container{-ms-transform: rotate(3deg);-webkit-transform: rotate(3deg);transform: rotate(3deg)}.seven-simple-div .container .row .yellow-col-bot .yellow-container{background: url("../images/yellow_rect.png") no-repeat scroll center center rgba(0,0,0,0);height: 165px;max-width: 256px;width: 100%;margin: 0 auto;display: table;font-family: 'ralewaybold';font-size: 20px;color: #000000;text-align: center;text-transform: uppercase;-webkit-transition: all .2s linear;transition: all .2s linear}@media (max-width: 1199px){.seven-simple-div .container .row .yellow-col-bot .yellow-container{max-width: 213px;font-size: 17px;background-size: contain}}.seven-simple-div .container .row .yellow-col-bot .yellow-container span{font-size: 30px}@media (max-width: 1199px){.seven-simple-div .container .row .yellow-col-bot .yellow-container span{font-size: 26px}}.seven-simple-div .container .row .yellow-col-bot .yellow-container div{display: table-cell;vertical-align: middle}.seven-simple-div .container .row .yellow-col-bot p{text-align: center;font-size: 15px;color: #ffffff;font-family: 'ralewayregular'}@media (max-width: 991px){.seven-simple-div .container .row .yellow-col-bot p br{display: none}}.seven-simple-div .container .row .yellow-col-bot a{color: #000000 !important}.seven-simple-div .container .row .y5{position: relative;top: -15px}.seven-simple-div .container .row .y5 .yellow-container{-ms-transform: rotate(-2deg);-webkit-transform: rotate(-2deg);transform: rotate(-2deg);float: right}@media (max-width: 767px){.seven-simple-div .container .row .y5 .yellow-container{float: none}}.seven-simple-div .container .row .y5 p{float: right}.seven-simple-div .container .row .y6 .yellow-container{-ms-transform: rotate(2deg);-webkit-transform: rotate(2deg);transform: rotate(2deg)}.seven-simple-div .container .row .y7{position: relative;top: -15px}.seven-simple-div .container .row .y7 .yellow-container{-ms-transform: rotate(-2deg);-webkit-transform: rotate(-2deg);transform: rotate(-2deg);float: left}
+
+
+
+#myScrollspy{
+    position: fixed;
+}

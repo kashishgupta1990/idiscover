@@ -1,0 +1,73 @@
+    
+<div class="container-fluid">
+       
+        <div class="row row-content">
+            <div class="col-xs-12" ng-if="!showMenu">
+                <h3>{{message}}</h3>
+            </div>
+            <div class="col-xs-12" ng-if="showMenu">
+             
+                
+            <form class="form-horizontal" name="commentForm" ng-submit="submit()" novalidate>
+                   
+                       
+                    <ul ng-repeat="sec in abc" class="media-list tab-pane fade in active">
+                       
+                        <li class="media"><h2>Welcome {{sec.firstname}}</h2></li>
+                        
+                         
+                        <ul ng-repeat="k in sec.usertype" ng-if="secs(k._id)">
+                          <div class="row">
+                              <div class="col-xs-10">
+                            <li class="media" id="k.sec_name"><h2>{{k.sec_name}}</h2></li>
+                           
+                            <ul ng-repeat="l in k.keywords">
+                            
+                            <div class="row">
+                                <div class="col-md-5">
+                                <input type="checkbox" class="keywordCheckBox" name="options" id="{{k._id}}" ng-change="sync(bool, item)" ng-model="bool" ng-click="isChecked(l._id)" ng-checked="check(l._id)">
+                                {{l.keyword}}
+                                </div>
+                                <div class="col-md-7">
+                                <p ng-show="kshow(l._id)">{{l.description}}<img src="\client\app\views\p.png" width="20" height="20" ng-click="kedit(l._id)"></p>
+                                
+                                <p ng-show="!kshow(l._id)">
+                                <textarea ng-model="l.description" class="txtarea">{{l.description}}</textarea>
+                                </p>
+                               
+                                </div>
+                                
+                                
+                               
+                                
+                            </div>
+                            </ul>
+                             
+                          </div>
+                             <div class="col-xs-2"> <nav class="hidden-xs col-sm-12" id="myScrollspy">
+            <!--<ul class="nav nav-pills nav-stacked" ng-repeat="k in sec.usertype" ng-if="secs(k._id)" data-spy="affix" data-offset-top="400">
+                <li ng-click=secSave()><a ui-sref="#{{k.sec_name}}"><b>SAVE </b> {{k.sec_name}}</a></li>
+              
+            </ul>-->
+                                 <li ng-click=secSave() class="btn btn-primary">Save the Current Section</li>
+        </nav></div>
+                             </div> 
+                           
+                        </ul>
+                        
+                             
+                    </ul>
+                        
+                    
+                
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            
+            </div>
+        </div>
+
+    </div>

@@ -1,0 +1,74 @@
+
+<nav class="navbar" role="navigation">
+        <div class="container">
+            
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li ng-class="{active: stateis('app.info.t1')}"><a ui-sref="app.info.t1">
+                        <span class="glyphicon glyphicon-chevron-right"
+                         aria-hidden="true"></span> Type-1</a></li>
+                    <li ng-class="{active: stateis('app.info.t2')}"><a ui-sref="app.info.t2">
+                        <span class="glyphicon glyphicon-chevron-right"
+                         aria-hidden="true"></span> Type-2</a></li>
+                    <li ng-class="{active: stateis('app.info.t3')}"><a ui-sref="app.info.t3">
+                         <span class="glyphicon glyphicon-chevron-right"
+                         aria-hidden="true"></span> Type-3</a></li>
+                     <li ng-class="{active: stateis('app.info.t4')}"><a ui-sref="app.info.t4">
+                     <span class="glyphicon glyphicon-chevron-right"
+                         aria-hidden="true"></span> Type-4</a></li>
+                     <li ng-class="{active: stateis('app.info.t5')}"><a ui-sref="app.info.t5">
+                     <span class="glyphicon glyphicon-chevron-right"
+                         aria-hidden="true"></span> Type-5</a></li>
+                    <li ng-class="{active: stateis('app.info.t6')}"><a ui-sref="app.info.t6">
+                     <span class="glyphicon glyphicon-chevron-right"
+                         aria-hidden="true"></span> Type-6</a></li>
+                </ul>
+            </div>
+            
+        </div>
+    </nav>       
+<div class="container">
+       
+        <div class="row row-content">
+            <div class="col-xs-12" ng-if="!showMenu">
+                <h3>{{message}}</h3>
+            </div>
+            <div class="col-xs-12" ng-if="showMenu">
+             
+                
+            <form class="form-horizontal" name="commentForm" ng-submit="submitComment()" novalidate>
+                    
+                    <div class="form-group">
+                       
+                    <ul ng-repeat="section in type_content" class="media-list tab-pane fade in active">
+                        <li class="media"><h2>{{section.name}}</h2></li>
+                        <ul ng-repeat="k in section.comments">
+                        <blockquote>
+                        <label>
+                            <input type="checkbox" name="options" id="{{k._id}}" ng-change="sync(bool, item)" ng-model="bool" ng-checked="isChecked(k.selected)">
+                            {{k.quality}}
+                            <p>{{k.description}}</p>
+                        </label>
+                        </blockquote>
+                        </ul>
+                    </ul>
+                        
+                            
+                             <label class="radio-inline">
+                                <input type="radio" name="rating" ng-model="mycomment.rating"
+                                 id="rating5" value=5 checked> 5
+                            </label>
+                        
+                    </div> 
+                
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            
+            </div>
+        </div>
+
+    </div>

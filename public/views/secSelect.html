@@ -1,0 +1,39 @@
+    
+<div class="container">
+       
+        <div class="row row-content">
+            <div class="col-xs-12" ng-if="!showMenu">
+                <h3>{{message}}</h3>
+            </div>
+            <div class="col-xs-12" ng-if="showMenu">
+                             
+               
+                
+            <form class="form-horizontal" name="secForm" ng-submit="submitsec()" novalidate>
+                    
+                    <div class="form-group">
+                       
+                    <ul ng-repeat="sec in abc" class="media-list tab-pane fade in active">
+                        
+                        <li class="media"><h2>Hey {{sec.firstname}}</h2></li>
+                            <p>Please select those section which you want in your TrueSelf Profile</p>
+                        <ul ng-repeat="k in sec.usertype" id="{{k._id}}">
+                            <input type="checkbox" class="keywordCheckBox" ng-click="sChecked(k._id)" ng-checked="sCheck(k._id)">
+                            {{k.sec_name}}
+                        </ul>
+                        
+                    </ul>
+                        
+                    </div> 
+                
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            
+            </div>
+        </div>
+
+    </div>

@@ -1,0 +1,40 @@
+    
+<div class="container">
+       
+        <div class="row row-content">
+            <div class="col-xs-12" ng-if="!showMenu">
+                <h3>{{message}}</h3>
+            </div>
+            <div class="col-xs-12" ng-if="showMenu">
+             
+               <h2>{{t}}</h2>
+                <h2>{{q}}</h2>
+                
+       <form class="form-horizontal" name="commentForm" ng-submit="submitComment()" novalidate>
+                    
+                    <div class="form-group">
+                       
+                    <ul ng-repeat="section in type_content" class="media-list tab-pane fade in active">
+                        <li class="media"><h2>{{section.sec_name}}</h2></li>
+                        <ul ng-repeat="k in section.keywords">
+                        <blockquote>
+                        <label>
+                            <input type="checkbox" name="options" id="{{k._id}}" ng-change="sync(bool, item)" ng-model="bool" ng-checked="isChecked(k.selected)">
+                            {{k.keyword}}
+                            <p>{{k.description}}</p>
+                        </label>
+                        </blockquote>
+                        </ul>
+                    </ul>
+                        
+                    </div> 
+                
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            
+            </div>
+     
