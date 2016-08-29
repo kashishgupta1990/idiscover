@@ -1,4 +1,5 @@
 {
+  "start":"node app.js",
   "name": "talent_mantra",
   "version": "1.0.0",
   "description": "Server-side Development with NodeJS",
