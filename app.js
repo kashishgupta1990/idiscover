@@ -8,6 +8,8 @@ var mongoose = require('mongoose')
 var passport = require('passport');
 var authenticate = require('./authenticate');
 
+
+
 var routes = require('./routes/index')
 var users = require('./routes/users')
 var t1 = require('./routes/t1')
@@ -84,6 +86,9 @@ app.all('*', function(req, res, next){
     return next();
   };
 
-
-
+ 
 module.exports = app
+/*mongoose.connect(process.env.MONGOLAB_URI, function(error){
+    if(error) console.error(error);
+    else console.log('mongo connected');
+});*/
