@@ -1,11 +1,10 @@
 {
   
   "name": "talent_mantra",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "nothing",
-  "main":"node app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node www"
   },
   "dependencies": {
     "assert": "^1.3.0",
