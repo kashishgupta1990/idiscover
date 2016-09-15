@@ -7,7 +7,10 @@ var bodyParser = require('body-parser')
 var mongoose = require('mongoose')
 var passport = require('passport');
 var authenticate = require('./authenticate');
-
+mongoose.connect(process.env.MONGODB_URI, function (error){
+    if(error) console.error(error);
+    else conole.log ('moongo connected');
+});
 var routes = require('./routes/index')
 var users = require('./routes/users')
 var t1 = require('./routes/t1')
