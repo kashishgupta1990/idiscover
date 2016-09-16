@@ -2,6 +2,10 @@
   
   "name": "talent_mantra",
   "version": "1.0.1",
+  "description": "nothing",
+  "scripts": {
+    "start": "node www"
+  },
   "dependencies": {
     "assert": "^1.3.0",
     "body-parser": "~1.13.2",
