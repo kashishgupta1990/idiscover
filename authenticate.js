@@ -5,6 +5,11 @@ var FacebookStrategy = require('passport-facebook').Strategy;
 var User = require('./models/user');
 var config = require('./config');
 
+
+// Load environment
+const _ENV_NAME = process.env.NAME || 'development';
+config = config[_ENV_NAME];
+
 exports.local = passport.use(new LocalStrategy(User.authenticate()));
 passport.serializeUser(User.serializeUser());
 passport.deserializeUser(User.deserializeUser());

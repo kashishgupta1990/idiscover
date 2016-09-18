@@ -10,6 +10,10 @@ var authenticate = require('./authenticate');
 
 var config = require('./config');
 
+// Load environment
+const _ENV_NAME = process.env.NAME || 'development';
+config = config[_ENV_NAME];
+
 mongoose.connect(config.mongoUrl);
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
